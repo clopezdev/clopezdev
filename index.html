@@ -560,13 +560,12 @@
 				<div class="card card-ej">
 					<h5 class="card-header text-center"> Calculadora de puntos </h5>
 					<div class="card-body container">
-					<div><span class="popup" onclick="onmouseScript()"> Por resulado del partido: 5 puntos <span class="popuptext" id="myPopup">Popup text...</span></span></div>
-					<div><span> Por posición del grupo:  6 puntos </span></div>
-					<div><span> Por posición del grupo: 6 puntos </span></div>
-					<div><span> Por pronósticos de finalistas: 6 puntos </span></div>
-					<div><span> Por otros pronósticos: 6 puntos </span></div>
+					<div><span class="popup" onclick="onmouseScript(this)"> Por resulado del partido: 5 puntos <span class="popuptext" id="myPopup">5 puntos por acertar signo del partido y los goles de un equipo</span></span></div>
+					<div><span class="popup" onclick="onmouseScript(this)"> Por posición del grupo: 10 puntos <span class="popuptext" id="myPopup">10 puntos por acertar la posición de dos equipos</span></span></div>
+					<div><span class="popup" onclick="onmouseScript(this)"> Por pronósticos de finalistas: 30 puntos <span class="popuptext" id="myPopup">15 + 10 + 5 puntos por acertar el campeon, subcampeon y cuarto clasificado respectivamente.</span></span></div>
+					<div><span class="popup" onclick="onmouseScript(this)"> Por otros pronósticos: 30 puntos <span class="popuptext" id="myPopup">15 + 15 puntos por acertar el MVP del campeonato y el máximo goleador</span></span></div>
 					</div>
-					<div class="card-footer"> <span> Total de puntos: 6 puntos </span></div>
+					<div class="card-footer popup"onclick="onmouseScript(this)"> <span> Total de puntos: 75 puntos <span class="popuptext" id="myPopup">5 + 10 + 30 + 30</span></span></div>
 				</div>
 			</div>
 			</div>
@@ -949,13 +948,9 @@
     
 	<script>
 	
-		function onmouseScript() {
-		var popup = document.getElementById("myPopup");
-		popup.classList.toggle("show");
-		}
-		function outmouseScript() {
-		var popup = document.getElementById("myPopup");
-		popup.classList.toggle("hidden");
+		function onmouseScript(el) {
+		
+		el.children[0].classList.toggle("show");
 		}
 		
 		function myFunction() {
