@@ -145,7 +145,7 @@
 		  <!-- Resumen-->
 		  <div class="tab-pane fade show active py-2 px-2" id="resumen" role="tabpanel" aria-labelledby="resumen-tab">
 			<h1 class="text-primary">Porra Pellejil de la Eurocopa 2021 </h1> 
-			<select id="mySelect" class="form-select" aria-label="Seleccion participantes" style="width: 30rem" onchange="myFunction()">
+			<select id="mySelect" class="form-select" aria-label="Seleccion participantes" style="width: 30rem" onchange="myFunction(this)">
 			<option selected>Selecciona un participante para ver sus pronósticos</option>
 			<option>Lope</option>
 			<option>Nando</option>
@@ -953,16 +953,18 @@
 		el.children[0].classList.toggle("show");
 		}
 		
-		function myFunction() {
+		function myFunction(el) {
+		console.log(el.value);
+		 var file = document.getElementById(el.value) + ".xml";
 		 var xhttp = new XMLHttpRequest();
 		xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 		  parseFunction(this);
 		}
 	  };
-	  xhttp.open("GET", "partidos.xml", true);
+	  xhttp.open("GET", file, true);
 	  xhttp.send();
-	}		
+	}			
 
 
 	function parseFunction(xml) {
