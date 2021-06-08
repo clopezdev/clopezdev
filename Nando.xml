@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<partidos-data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<partido>
+		<ResultadoLocal>12</ResultadoLocal>
+		<ResultadoVisitante>22</ResultadoVisitante>
+	</partido>
+
+	<partido>
+		<ResultadoLocal>13</ResultadoLocal>
+		<ResultadoVisitante>10</ResultadoVisitante>
+	</partido>
+
+
+</partidos-data>
