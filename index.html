@@ -132,7 +132,7 @@
 		</li>
 		
 		<li class="nav-item" role="presentation">
-			<button class="nav-link" id="pronosticos-tab" data-bs-toggle="tab" data-bs-target="#pronosticos" type="button" role="tab" aria-controls="aclaraciones" aria-selected="false">Pronósticos</button>
+			<button class="nav-link" id="clasificacion-tab" data-bs-toggle="tab" data-bs-target="#clasificacion" type="button" role="tab" aria-controls="aclaraciones" aria-selected="false">Clasificación</button>
 		</li>
 		
 	  </ul>
@@ -146,9 +146,10 @@
 			<h1 class="text-primary">Porra Pellejil de la Eurocopa 2021 </h1> 
 			<select id="mySelect" class="form-select" aria-label="Seleccion participantes" style="width: 30rem" onchange="myFunction()">
 			<option selected>Selecciona un participante para ver sus pronósticos</option>
-			<option>Lope</option>
+			<option id="Lope">Lope</option>
 			<option>Nando</option>
 			<option>Pavon</option>
+			<option>Herry</option>
 			</select>
 			<br>
 			
@@ -577,372 +578,20 @@
 		  
 		
 		</div>
-		  <!-- Pronosticos-->
-		<div class="tab-pane fade py-2 px-2" id="pronosticos" role="tabpanel" aria-labelledby="pronosticos-tab">
-			<h1 class="text-primary">Haz tus pronósticos </h1> 
-		<form>
+		  <!-- Clasificación-->
+		  <div class="tab-pane fade show active py-2 px-2" id="clasificacion" role="tabpanel" aria-labelledby="clasificacion-tab">
+			<h1 class="text-primary">Clasificación de la Porra Pellejil de la Eurocopa 2021 </h1> 
 			<div class="row">
-			  <div class="col">
-				<div class="card shadow">
-					<h5 class="card-header"> Jornada 1</h5>
-					<div class="card-body container">
-						<div class="row"><div class="col text-start">Turquía</div> <input type="number" placeholder="0"><input type="number" placeholder="0"> <div class="col text-end">Italia</div></div>
-						<div class="row"><div class="col text-start">Gales</div> <input type="number" placeholder="0"><input type="number" placeholder="0"> <div class="col text-end">Suiza</div></div>
-						<div class="row"><div class="col text-start">Dinamarca</div> <input type="number" placeholder="0"><input type="number" placeholder="0">  <div class="col text-end">Finlandia</div></div>
-						<div class="row"><div class="col text-start">Bélgica</div><input type="number" placeholder="0"><input type="number" placeholder="0"> <div class="col text-end">Rusia</div></div>
-						<div class="row"><div class="col text-start">Inglaterra</div> <input type="number" placeholder="0"><input type="number" placeholder="0">  <div class="col text-end">Croacia</div></div>
-						<div class="row"><div class="col text-start">Austria</div> <input type="number" placeholder="0"><input type="number" placeholder="0">  <div class="col text-end">Macedonia</div></div>
-						<div class="row"><div class="col text-start">Holanda</div> <input type="number" placeholder="0"><input type="number" placeholder="0">  <div class="col text-end">Ucrania</div></div>
-						<div class="row"><div class="col text-start">Escocia</div> <input type="number" placeholder="0"><input type="number" placeholder="0">  <div class="col text-end">Rep. Checa</div></div>
-						<div class="row"><div class="col text-start">Polonia</div> <input type="number" placeholder="0"><input type="number" placeholder="0">  <div class="col text-end">Eslovaquia</div></div>
-						<div class="row"><div class="col text-start">España</div> <input type="number" placeholder="0"><input type="number" placeholder="0">  <div class="col text-end">Suecia</div></div>
-						<div class="row"><div class="col text-start">Hungría</div> <input type="number" placeholder="0"><input type="number" placeholder="0">  <div class="col text-end">Portugal</div></div>
-						<div class="row"><div class="col text-start">Francia</div> <input type="number" placeholder="0"><input type="number" placeholder="0">  <div class="col text-end">Alemania</div></div>
-
-					
-					</div>
+				<div class="col">
+				  <div class="card shadow">
+					  <h5 class="card-header"> Clasificación</h5>
+					  <div class="card-body container">
+					  </div>
+				  </div>
 				</div>
-			  </div>
-			  
-			  <div class="col">
-				<div class="card shadow">
-					<h5 class="card-header"> Jornada 2</h5>
-					<div class="card-body container">
-					<div class="row"><div class="col text-start">Finlandia</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Rusia</div></div>
-					<div class="row"><div class="col text-start">Turquía</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Gales</div></div>
-					<div class="row"><div class="col text-start">Italia</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Suiza</div></div>
-					<div class="row"><div class="col text-start">Ucrania</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Macedonia</div></div>
-					<div class="row"><div class="col text-start">Dinamarca</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Bélgica</div></div>
-					<div class="row"><div class="col text-start">Holanda</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Austria</div></div>
-					<div class="row"><div class="col text-start">Suecia</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Eslovaquia</div></div>
-					<div class="row"><div class="col text-start">Croacia</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Rep. Checa</div></div>
-					<div class="row"><div class="col text-start">Inglaterra</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Escocia</div></div>
-					<div class="row"><div class="col text-start">Hungría</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Francia</div></div>
-					<div class="row"><div class="col text-start">Portugal</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Alemania</div></div>
-					<div class="row"><div class="col text-start">España</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Polonia</div></div>
-
-
-					
-					</div>
-				</div>
-			  </div>
-			  
-			  <div class="col">
-				<div class="card shadow">
-					<h5 class="card-header"> Jornada 3</h5>
-					<div class="card-body container">
-					
-					<div class="row"><div class="col text-start">Italia</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Gales</div></div>
-					<div class="row"><div class="col text-start">Suiza</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Turquía</div></div>
-					<div class="row"><div class="col text-start">Macedonia</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Holanda</div></div>
-					<div class="row"><div class="col text-start">Ucrania</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Austria</div></div>
-					<div class="row"><div class="col text-start">Finlandia</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Bélgica</div></div>
-					<div class="row"><div class="col text-start">Rusia</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Dinamarca</div></div>
-					<div class="row"><div class="col text-start">Croacia</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Escocia</div></div>
-					<div class="row"><div class="col text-start">Rep.Checa</div> <input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Inglaterra</div></div>
-					<div class="row"><div class="col text-start">Eslovaquia</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">España</div></div>
-					<div class="row"><div class="col text-start">Suecia</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Polonia</div></div>
-					<div class="row"><div class="col text-start">Alemania</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Hungría</div></div>
-					<div class="row"><div class="col text-start">Portugal</div> 	<input type="number" placeholder="0"><input type="number" placeholder="0">	<div class="col text-end">Francia</div></div>
-
-					
-					</div>
-				</div>
-			  </div>
-			  
 			</div>
-			
-			<div class="row group-cards">
-				
-				<div class="col">
-				<div class="card group-card shadow">
-					<h5 class="card-header">Grupo A</h5>
-					<div class="card-body container">
-					
-					<div class="row"><div class="col text-start">
-					<select class="form-select" id="inputGroupSelect01">
-					<option selected>Elige...</option>
-					<option value="1">Turquia</option>
-					<option value="2">Italia</option>
-					<option value="3">Gales</option>
-					<option value="4">Suiza</option>
-				    </select>
-					</div> </div>
-					<div class="row"><div class="col text-start">
-					<select class="form-select" id="inputGroupSelect01">
-					<option selected>Elige...</option>
-					<option value="1">Turquia</option>
-					<option value="2">Italia</option>
-					<option value="3">Gales</option>
-					<option value="4">Suiza</option>
-				    </select>
-					</div> </div>
-					<div class="row"><div class="col text-start">
-					<select class="form-select" id="inputGroupSelect01">
-					<option selected>Elige...</option>
-					<option value="1">Turquia</option>
-					<option value="2">Italia</option>
-					<option value="3">Gales</option>
-					<option value="4">Suiza</option>
-				    </select>
-					</div> </div>
-					<div class="row"><div class="col text-start">
-					<select class="form-select" id="inputGroupSelect01">
-					<option selected>Elige...</option>
-					<option value="1">Turquia</option>
-					<option value="2">Italia</option>
-					<option value="3">Gales</option>
-					<option value="4">Suiza</option>
-				    </select>
-					</div> </div>
-					
-					</div>
-				</div>
-				</div>
-				
-				<div class="col">
-				<div class="card group-card shadow">
-					<h5 class="card-header">Grupo B</h5>
-					<div class="card-body container">
-					
-				
-					
-					<div class="row"><div class="col text-start">
-					<select class="form-select" id="inputGroupSelect01">
-					<option selected>Elige...</option>
-					<option value="1">Dinamarca</option>
-					<option value="2">Finlandia</option>
-					<option value="3">Bélgica</option>
-					<option value="4">Rusia</option>
-				    </select>
-					</div> </div>
-					<div class="row"><div class="col text-start">
-					<select class="form-select" id="inputGroupSelect01">
-					<option selected>Elige...</option>
-					<option value="1">Dinamarca</option>
-					<option value="2">Finlandia</option>
-					<option value="3">Bélgica</option>
-					<option value="4">Rusia</option>
-				    </select>
-					</div> </div>
-					<div class="row"><div class="col text-start">
-					<select class="form-select" id="inputGroupSelect01">
-					<option selected>Elige...</option>
-					<option value="1">Dinamarca</option>
-					<option value="2">Finlandia</option>
-					<option value="3">Bélgica</option>
-					<option value="4">Rusia</option>
-				    </select>
-					</div> </div>
-					<div class="row"><div class="col text-start">
-					<select class="form-select" id="inputGroupSelect01">
-					<option selected>Elige...</option>
-					<option value="1">Dinamarca</option>
-					<option value="2">Finlandia</option>
-					<option value="3">Bélgica</option>
-					<option value="4">Rusia</option>
-				    </select>
-					</div> </div>
-					
-					</div>
-				</div>
-				</div>
-				
-				<div class="col">
-				<div class="card group-card shadow">
-					<h5 class="card-header">Grupo C</h5>
-					<div class="card-body container">
+		  </div>
 
-					<div class="row"><div class="col text-start">
-					<select class="form-select" id="inputGroupSelect01">
-					<option selected>Elige...</option>
-					<option value="1">Holanda</option>
-					<option value="2">Ucrania</option>
-					<option value="3">Austria</option>
-					<option value="4">Macedonia</option>
-				    </select>
-					</div> </div>
-					<div class="row"><div class="col text-start">
-					<select class="form-select" id="inputGroupSelect01">
-					<option selected>Elige...</option>
-					<option value="1">Holanda</option>
-					<option value="2">Ucrania</option>
-					<option value="3">Austria</option>
-					<option value="4">Macedonia</option>
-				    </select>
-					</div> </div>
-					<div class="row"><div class="col text-start">
-					<select class="form-select" id="inputGroupSelect01">
-					<option selected>Elige...</option>
-					<option value="1">Holanda</option>
-					<option value="2">Ucrania</option>
-					<option value="3">Austria</option>
-					<option value="4">Macedonia</option>
-				    </select>
-					</div> </div>
-					<div class="row"><div class="col text-start">
-					<select class="form-select" id="inputGroupSelect01">
-					<option selected>Elige...</option>
-					<option value="1">Holanda</option>
-					<option value="2">Ucrania</option>
-					<option value="3">Austria</option>
-					<option value="4">Macedonia</option>
-				    </select>
-					</div> </div>
-					
-					
-					</div>
-				</div>
-				</div>
-				
-				<div class="col">
-				<div class="card group-card shadow">
-					<h5 class="card-header">Grupo D</h5>
-					<div class="card-body container">
-					
-						<div class="row"><div class="col text-start">
-						<select class="form-select" id="inputGroupSelect01">
-						<option selected>Elige...</option>
-						<option value="1">Inglaterra</option>
-						<option value="2">Croacia</option>
-						<option value="3">Escocia</option>
-						<option value="4">Rep. Checa</option>
-						</select>
-						</div> </div>
-						<div class="row"><div class="col text-start">
-						<select class="form-select" id="inputGroupSelect01">
-						<option selected>Elige...</option>
-						<option value="1">Inglaterra</option>
-						<option value="2">Croacia</option>
-						<option value="3">Escocia</option>
-						<option value="4">Rep. Checa</option>
-						</select>
-						</div> </div>
-						<div class="row"><div class="col text-start">
-						<select class="form-select" id="inputGroupSelect01">
-						<option selected>Elige...</option>
-						<option value="1">Inglaterra</option>
-						<option value="2">Croacia</option>
-						<option value="3">Escocia</option>
-						<option value="4">Rep. Checa</option>
-						</select>
-						</div> </div>
-						<div class="row"><div class="col text-start">
-						<select class="form-select" id="inputGroupSelect01">
-						<option selected>Elige...</option>
-						<option value="1">Inglaterra</option>
-						<option value="2">Croacia</option>
-						<option value="3">Escocia</option>
-						<option value="4">Rep. Checa</option>
-						</select>
-						</div> </div>
-					
-					
-					</div>
-				</div>
-				</div>
-				
-				<div class="col">
-				<div class="card group-card shadow">
-					<h5 class="card-header">Grupo E</h5>
-					<div class="card-body container">
-				
-					
-					<div class="row"><div class="col text-start">
-					<select class="form-select" id="inputGroupSelect01">
-					<option selected>Elige...</option>
-					<option value="1">España</option>
-					<option value="2">Suecia</option>
-					<option value="3">Polonia</option>
-					<option value="4">Eslovaquia</option>
-				    </select>
-					</div> </div>
-					<div class="row"><div class="col text-start">
-					<select class="form-select" id="inputGroupSelect01">
-					<option selected>Elige...</option>
-					<option value="1">España</option>
-					<option value="2">Suecia</option>
-					<option value="3">Polonia</option>
-					<option value="4">Eslovaquia</option>
-				    </select>
-					</div> </div>
-					<div class="row"><div class="col text-start">
-					<select class="form-select" id="inputGroupSelect01">
-					<option selected>Elige...</option>
-					<option value="1">España</option>
-					<option value="2">Suecia</option>
-					<option value="3">Polonia</option>
-					<option value="4">Eslovaquia</option>
-				    </select>
-					</div> </div>
-					<div class="row"><div class="col text-start">
-					<select class="form-select" id="inputGroupSelect01">
-					<option selected>Elige...</option>
-					<option value="1">España</option>
-					<option value="2">Suecia</option>
-					<option value="3">Polonia</option>
-					<option value="4">Eslovaquia</option>
-				    </select>
-					</div> </div>
-					
-					
-					</div>
-				</div>
-				</div>							
-								
-				<div class="col">
-				<div class="card group-card shadow">
-					<h5 class="card-header">Grupo F</h5>
-					<div class="card-body container">
-					
-					
-					<div class="row"><div class="col text-start">
-					<select class="form-select" id="inputGroupSelect01">
-					<option selected>Elige...</option>
-					<option value="1">Hungría</option>
-					<option value="2">Portugal</option>
-					<option value="3">Francia</option>
-					<option value="4">Alemania</option>
-				    </select>
-					</div> </div>
-					<div class="row"><div class="col text-start">
-					<select class="form-select" id="inputGroupSelect01">
-					<option selected>Elige...</option>
-					<option value="1">Hungría</option>
-					<option value="2">Portugal</option>
-					<option value="3">Francia</option>
-					<option value="4">Alemania</option>
-				    </select>
-					</div> </div>
-					<div class="row"><div class="col text-start">
-					<select class="form-select" id="inputGroupSelect01">
-					<option selected>Elige...</option>
-					<option value="1">Hungría</option>
-					<option value="2">Portugal</option>
-					<option value="3">Francia</option>
-					<option value="4">Alemania</option>
-				    </select>
-					</div> </div>
-					<div class="row"><div class="col text-start">
-					<select class="form-select" id="inputGroupSelect01">
-					<option selected>Elige...</option>
-					<option value="1">Hungría</option>
-					<option value="2">Portugal</option>
-					<option value="3">Francia</option>
-					<option value="4">Alemania</option>
-				    </select>
-					</div> </div>
-					
-					</div>
-				</div>
-				</div>
-			
-	
-			</div>
-			<button type="submit" class="btn btn-success">Subir pronósticos</button>
-		</form>	
-		
-		</div>		<!-- Fin de la pestaña pronosticos -->
 	 
 
     <!-- Bootstrap Bundle with Popper -->
@@ -1021,4 +670,5 @@
   </body>
   
 </html>
+
 
