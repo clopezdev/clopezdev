@@ -69,9 +69,9 @@ function calcularPuntosGrupo(resp, competicion, participante){
 			resb = Math.sign(rlb - rvb)
 			
 			puntuaje += calcularPartidoGrupo(rla,rva,resa,rlb,rvb,resb)
-			console.log(puntuaje)
+			
 			}
-			console.log(puntuaje)
+			
 			document.getElementById(participante).children[1].innerHTML = puntuaje;
 			}
 
