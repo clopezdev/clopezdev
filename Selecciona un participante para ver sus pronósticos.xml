@@ -2,8 +2,8 @@
 <partidos-data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 <partido>
-	<ResultadoLocal>Pdte.</ResultadoLocal>
-	<ResultadoVisitante>Pdte.</ResultadoVisitante>
+	<ResultadoLocal>0</ResultadoLocal>
+	<ResultadoVisitante>3</ResultadoVisitante>
 </partido>
 <partido>
 	<ResultadoLocal>Pdte.</ResultadoLocal>
