@@ -42,8 +42,8 @@
 	<ResultadoVisitante>0</ResultadoVisitante>
 </partido>
 <partido>
-	<ResultadoLocal>Pdte.</ResultadoLocal>
-	<ResultadoVisitante>Pdte.</ResultadoVisitante>
+	<ResultadoLocal>0</ResultadoLocal>
+	<ResultadoVisitante>3</ResultadoVisitante>
 </partido>
 <partido>
 	<ResultadoLocal>Pdte.</ResultadoLocal>
