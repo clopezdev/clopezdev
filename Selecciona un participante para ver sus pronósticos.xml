@@ -74,12 +74,12 @@
 	<ResultadoVisitante>0</ResultadoVisitante>
 </partido>
 <partido>
-	<ResultadoLocal>Pdte.</ResultadoLocal>
-	<ResultadoVisitante>Pdte.</ResultadoVisitante>
+	<ResultadoLocal>1</ResultadoLocal>
+	<ResultadoVisitante>0</ResultadoVisitante>
 </partido>
 <partido>
-	<ResultadoLocal>Pdte.</ResultadoLocal>
-	<ResultadoVisitante>Pdte.</ResultadoVisitante>
+	<ResultadoLocal>1</ResultadoLocal>
+	<ResultadoVisitante>1</ResultadoVisitante>
 </partido>
 <partido>
 	<ResultadoLocal>Pdte.</ResultadoLocal>
