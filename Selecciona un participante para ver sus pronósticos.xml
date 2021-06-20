@@ -98,12 +98,12 @@
 	<ResultadoVisitante>1</ResultadoVisitante>
 </partido>
 <partido>
-	<ResultadoLocal>3</ResultadoLocal>
-	<ResultadoVisitante>1</ResultadoVisitante>
-</partido>
-<partido>
 	<ResultadoLocal>1</ResultadoLocal>
 	<ResultadoVisitante>0</ResultadoVisitante>
+</partido>
+<partido>
+	<ResultadoLocal>3</ResultadoLocal>
+	<ResultadoVisitante>1</ResultadoVisitante>
 </partido>
 <partido>
 	<ResultadoLocal>Pdte.</ResultadoLocal>
