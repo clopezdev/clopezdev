@@ -46,6 +46,7 @@ function recogerDatos(participante) {
 			if (this.readyState == 4 && this.status == 200) {
 			  resp = this.responseXML;
 			  calcularPuntosGrupo(resp, competicion, participante);
+			  calcularPuntosPosicionGrupo (resp, competicion, participante);
 			  calcularPuntos(participante);
 			}
 		  };
@@ -53,6 +54,20 @@ function recogerDatos(participante) {
 		  xhttp.send();
 		  
 		}
+
+function calcularPuntosPosicionGrupo (resp, competicion, participante) {
+		  var puntuaje = 0;
+		  var x = resp.getElementsByTagName('grupo')
+		  var z = competicion.getElementsByTagName('grupo')
+		  var posA;
+		  var posB;
+		    for(i = 0; i < x.length; i++) {
+		      posA = x[i].getElementsByTagName('pos')[0].childNodes[0].nodeValue;
+		      posB = z[i].getElementsByTagName('pos')[0].childNodes[0].nodeValue;
+		      posA === posB ? puntuaje += 5 : puntuaje += 0
+		    }
+		  document.getElementById(participante).children[2].innerHTML = puntuaje;
+}
 
 function calcularPuntosGrupo(resp, competicion, participante){
 			var puntuaje = 0;
