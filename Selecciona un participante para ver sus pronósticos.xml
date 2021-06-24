@@ -138,12 +138,12 @@
 	<ResultadoVisitante>2</ResultadoVisitante>
 </partido>
 <partido>
-	<ResultadoLocal>Pdte.</ResultadoLocal>
-	<ResultadoVisitante>Pdte.</ResultadoVisitante>
+	<ResultadoLocal>2</ResultadoLocal>
+	<ResultadoVisitante>2</ResultadoVisitante>
 </partido>
 <partido>
-	<ResultadoLocal>Pdte.</ResultadoLocal>
-	<ResultadoVisitante>Pdte.</ResultadoVisitante>
+	<ResultadoLocal>2</ResultadoLocal>
+	<ResultadoVisitante>2</ResultadoVisitante>
 </partido>
 <grupo>
 	<pos>Italia</pos>
@@ -152,10 +152,10 @@
 	<pos>Gales</pos>
 </grupo>
 <grupo>
-	<pos>Turquia</pos>
+	<pos>Suiza</pos>
 </grupo>
 <grupo>
-	<pos>Suiza</pos>
+	<pos>Turquia</pos>
 </grupo>
 <grupo>
 	<pos>Bélgica</pos>
@@ -164,19 +164,19 @@
 	<pos>Dinamarca</pos>
 </grupo>
 <grupo>
-	<pos>Rusia</pos>
+	<pos>Finlandia</pos>
 </grupo>
 <grupo>
-	<pos>Finlandia</pos>
+	<pos>Rusia</pos>
 </grupo>
 <grupo>
 	<pos>Holanda</pos>
 </grupo>
 <grupo>
-	<pos>Ucrania</pos>
+	<pos>Austria</pos>
 </grupo>
 <grupo>
-	<pos>Austria</pos>
+	<pos>Ucrania</pos>
 </grupo>
 <grupo>
 	<pos>Macedonia</pos>
@@ -188,22 +188,22 @@
 	<pos>Croacia</pos>
 </grupo>
 <grupo>
-	<pos>Escocia</pos>
-</grupo>
-<grupo>
 	<pos>Rep. Checa</pos>
 </grupo>
 <grupo>
-	<pos>España</pos>
-</grupo>
-<grupo>
-	<pos>Polonia</pos>
+	<pos>Escocia</pos>
 </grupo>
 <grupo>
 	<pos>Suecia</pos>
 </grupo>
 <grupo>
+	<pos>España</pos>
+</grupo>
+<grupo>
 	<pos>Eslovaquia</pos>
+</grupo>
+<grupo>
+	<pos>Polonia</pos>
 </grupo>
 <grupo>
 	<pos>Francia</pos>
