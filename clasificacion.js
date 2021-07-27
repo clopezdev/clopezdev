@@ -47,6 +47,7 @@ function recogerDatos(participante) {
 			  resp = this.responseXML;
 			  calcularPuntosGrupo(resp, competicion, participante);
 			  calcularPuntosPosicionGrupo (resp, competicion, participante);
+			  calcularPuntosClasif(resp, competicion, participante);
 			  calcularPuntos(participante);
 			}
 		  };
@@ -75,7 +76,26 @@ function calcularPuntosGrupo(resp, competicion, participante){
 			
 			var z = competicion.getElementsByTagName('partido')
 			
-			for(i = 0; i < x.length; i++) {
+			for(i = 0; i < 36; i++) {
+			rla = parseInt(x[i].getElementsByTagName("ResultadoLocal")[0].childNodes[0].nodeValue);
+			rlb = parseInt(z[i].getElementsByTagName("ResultadoLocal")[0].childNodes[0].nodeValue);
+			rva = parseInt(x[i].getElementsByTagName("ResultadoVisitante")[0].childNodes[0].nodeValue);
+			rvb = parseInt(z[i].getElementsByTagName("ResultadoVisitante")[0].childNodes[0].nodeValue);
+			resa = Math.sign(rla - rva);
+			resb = Math.sign(rlb - rvb);
+			puntuaje += calcularPartidoGrupo(rla,rva,resa,rlb,rvb,resb)
+			
+			}
+			
+			document.getElementById(participante).children[1].innerHTML = puntuaje;
+			}
+function calcularPuntosClasif(resp, competicion, participante){
+			var puntuaje = 0;
+			var x = resp.getElementsByTagName('partido')
+			
+			var z = competicion.getElementsByTagName('partido')
+			
+			for(i = 36; i < x.length; i++) {
 			rla = parseInt(x[i].getElementsByTagName("ResultadoLocal")[0].childNodes[0].nodeValue);
 			rlb = parseInt(z[i].getElementsByTagName("ResultadoLocal")[0].childNodes[0].nodeValue);
 			rva = parseInt(x[i].getElementsByTagName("ResultadoVisitante")[0].childNodes[0].nodeValue);
@@ -87,7 +107,7 @@ function calcularPuntosGrupo(resp, competicion, participante){
 			
 			}
 			
-			document.getElementById(participante).children[1].innerHTML = puntuaje;
+			document.getElementById(participante).children[4].innerHTML = puntuaje;
 			}
 
 function calcularPartidoGrupo(a,b,c,d,e,f){

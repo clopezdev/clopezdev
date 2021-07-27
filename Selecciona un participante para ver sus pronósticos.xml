@@ -218,14 +218,32 @@
 	<pos>Hungría</pos>
 </grupo>
 <otros>
-	<jug>0</jug>
+	<jug>Donnarumma</jug>
 </otros>
 <otros>
-	<jug>0</jug>
+	<jug>Cristiano Ronaldo</jug>
 </otros>
 <otros>
-	<jug>0</jug>
+	<jug>Donnarumma</jug>
 </otros>
-
+<otros><jug>Italia</jug></otros>
+<otros><jug>Inglaterra</jug></otros>
+<otros><jug>España</jug></otros>
+<otros><jug>Dinamarca</jug></otros>
+<partido>	<ResultadoLocal>	0	</ResultadoLocal>	<ResultadoVisitante>	4	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	2	</ResultadoLocal>	<ResultadoVisitante>	1	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	0	</ResultadoLocal>	<ResultadoVisitante>	2	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	1	</ResultadoLocal>	<ResultadoVisitante>	0	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	3	</ResultadoLocal>	<ResultadoVisitante>	5	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	3	</ResultadoLocal>	<ResultadoVisitante>	3	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	2	</ResultadoLocal>	<ResultadoVisitante>	0	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	1	</ResultadoLocal>	<ResultadoVisitante>	2	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	1	</ResultadoLocal>	<ResultadoVisitante>	2	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	1	</ResultadoLocal>	<ResultadoVisitante>	1	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	0	</ResultadoLocal>	<ResultadoVisitante>	4	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	1	</ResultadoLocal>	<ResultadoVisitante>	2	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	1	</ResultadoLocal>	<ResultadoVisitante>	1	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	2	</ResultadoLocal>	<ResultadoVisitante>	1	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	1	</ResultadoLocal>	<ResultadoVisitante>	1	</ResultadoVisitante>	</partido>
 
 </partidos-data>

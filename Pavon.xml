@@ -172,6 +172,26 @@
 	<otros><jug>Cristiano</jug></otros>
 	<otros><jug>Mbappe</jug></otros>
 	<otros><jug>Lloris</jug></otros>
+	<otros><jug>Holanda</jug></otros>
+	<otros><jug>Alemania</jug></otros>
+	<otros><jug>Portugal</jug></otros>
+	<otros><jug>Francia</jug></otros>
+	<partido>	<ResultadoLocal>	0	</ResultadoLocal>	<ResultadoVisitante>	2	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	3	</ResultadoLocal>	<ResultadoVisitante>	0	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	2	</ResultadoLocal>	<ResultadoVisitante>	0	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	1	</ResultadoLocal>	<ResultadoVisitante>	2	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	1	</ResultadoLocal>	<ResultadoVisitante>	2	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	3	</ResultadoLocal>	<ResultadoVisitante>	0	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	1	</ResultadoLocal>	<ResultadoVisitante>	2	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	1	</ResultadoLocal>	<ResultadoVisitante>	0	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	3	</ResultadoLocal>	<ResultadoVisitante>	1	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	2	</ResultadoLocal>	<ResultadoVisitante>	1	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	0	</ResultadoLocal>	<ResultadoVisitante>	2	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	2	</ResultadoLocal>	<ResultadoVisitante>	1	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	0	</ResultadoLocal>	<ResultadoVisitante>	1	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	2	</ResultadoLocal>	<ResultadoVisitante>	1	</ResultadoVisitante>	</partido>
+<partido>	<ResultadoLocal>	1	</ResultadoLocal>	<ResultadoVisitante>	0	</ResultadoVisitante>	</partido>
+
 
 
 </partidos-data>
